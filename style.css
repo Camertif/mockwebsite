@@ -1,0 +1,338 @@
+body {
+    margin: 0;
+    font-family: 'GT-Eesti 2r',sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'averia-light', sans-serif;
+}
+
+.navigation-wrapper {
+   height: 230px;
+   background-color:  #fffef8;
+   color: #4f605a;
+   border-bottom: 10px solid #4f605a;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 60px 100px;  
+   box-shadow: inset 0px -26px 79px -8px #f3e3ce; 
+}
+
+.left-column {
+    display: flex;
+    align-items: center;   
+}
+
+.header-styles {
+    font-family: 'GT-Eesti 2r',sans-serif;
+    /* font-family: 'acumin-pro-wide', sans-serif;
+    font-family: 'acumin-pro-wide', sans-serif; */
+    font-size: 1em;   
+}
+
+.center-column {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 42px;
+   width: 500px;
+}
+
+.center-column .logo 
+    display: flex;
+    justify-content: center;  
+    border-style: solid;
+    border-color: #4f605a;
+    border-width: 0.25em;
+}
+
+.logo img {
+    width: 210px;
+    height: 100%;   
+}
+
+.link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.nav-link {
+    width: 70px;
+    text-align: center;    
+}
+
+.nav-link a {
+    /* font-family: 'Ubuntu Condensed', sans-serif; */
+    font-family: 'acumin-pro-wide', sans-serif;
+    color: #4f605a;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-link a:hover {
+    color: #bcca99;
+    letter-spacing: 2px;  
+}
+
+.right-column {
+    display: flex;
+    align-items: center;  
+}
+
+.icon {
+    font-size: 2em;
+}
+
+.icon-mr {
+    margin-right: 15px;
+}
+
+.icon-ml {
+    margin-left: 15px;  
+}
+
+.homepage {
+   background-image: url(assets/LittleNookStudio_ElizabethReyes_109.png);
+   padding: 100px;
+   height: 700px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+
+/* .top-heading {
+   background-color: #9b651e;
+   color: #fff;
+   width: 200px;
+   margin-top: 15px;
+   padding: 1px 20px;
+   border-radius: 2px;
+} */
+.mid-heading {
+   background-image: url(assets/logoshort.png);
+   padding: 100px;
+   height: 300px;
+   /* color: #fff; */
+   width: 20px;
+   border-radius: auto; 
+   background-attachment: fixed;
+   background-position: top;
+   background-repeat: no-repeat;
+
+}
+/* .bottom-heading {
+    background-color: #b89893;
+    color: #fff; 
+    width: 200px;
+    margin-top: 15px;
+    padding: 1px 20px;
+    border-radius: 2px;  
+} */
+
+.features-section {
+   height: 400px;
+   background-color:   #4f605a;
+   border-top: 10px solid #fffef8;;
+   color: #fffef8;;
+   display: flex;
+   justify-content: center;
+   font-family: 'Ubuntu Condensed', sans-serif;
+   /* font-family: 'acumin-pro-wide', sans-serif; */
+   /* box-shadow: inset 0px -26px 79px -8px #a4735e; */
+   box-shadow: inset 0px -26px 79px -8px #f3e3ce;
+}
+
+.columns-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;   
+}
+
+.column {
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.column:hover {
+    border-bottom-color: #fff;
+    border-bottom: 5px solid white;
+}
+
+.column :nth-child(1) {
+    font-size: 3em; 
+}
+
+.column :nth-child(2) {
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+    transition: 1s;  
+}
+
+.column :nth-child(2):hover {
+    letter-spacing: 2px;   
+}
+
+.column :nth-child(3) {
+    letter-spacing: 2px;
+}
+
+/* © 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About */
+
+/* body { */
+    /* font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Roboto Slab', serif;
+}
+.navigation-wrapper {
+height: 190px;
+background-color: #CB6974;
+color: #FFFFFF;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 60px 100px;
+}
+.left-column {
+display: flex;
+align-items: center;
+}
+.header-styles {
+/* font-family: 'Ubuntu Condensed', sans-serif; */
+/* font-family: 'Montserrat', sans-serif;
+font-size: 1em;
+}
+.center-column {
+display: grid;
+grid-template-columns: 1fr;
+grid-gap: 42px;
+width: 500px;
+}
+.center-column .logo {
+display: flex;
+justify-content: center;
+}
+.logo img {
+width: 216px;
+height: 100%;
+}
+.link-wrapper {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.nav-link {
+width: 70px;
+text-align: center;
+}
+.nav-link a {
+font-family: 'Ubuntu Condensed', sans-serif;
+color: #FFFFFF;
+text-decoration: none;
+transition: 0.5s;
+}
+.nav-link a:hover {
+color: #BCCA99;
+letter-spacing: 2px;
+}
+.right-column {
+display: flex;
+align-items: center;
+}
+.icon {
+font-size: 2em;
+}
+.icon-mr {
+margin-right: 15px;
+}
+.icon-ml {
+margin-left: 15px;
+}
+.homepage {
+background-image: url(asset/Candle5.jpg);
+padding: 100px;
+height: 300px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.top-heading {
+padding: 1px 20px;
+background-color: #080808;
+color: #CBCBCB;
+width: 290px;
+border-radius: 2px;
+}
+.bottom-heading {
+background-color: #F7A122;
+color: #0E0800;
+width: 107px;
+margin-top: 15px;
+padding: 1px 20px;
+border-radius: 2px;
+}
+.features-section {
+height: 400px;
+background-image: url(asset/Candle\ 1.jpg);
+background-color: #FFC983;
+border-top: 10px solid rgb(12, 1, 1);
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'ubuntu Condensed', sans-serif;
+box-shadow: inset 0px -26px 79px -8px rgba(0,0,0,0.58);
+}
+.columns-wrapper {
+width: 1000px;
+display: flex;
+justify-content: space-between;
+}
+.column {
+padding: 20px;
+margin: 42px;
+text-align: center;
+border-bottom: 5px sold transparent;
+border-radius: 10px;
+transition: 1s;
+}
+.column:hover {
+border-bottom: 5px solid#fff;
+}
+.column :nth-child(1) {
+font-size: 3em;
+}
+.column :nth-child(2) {
+font-size: 1.5em;
+font-weight: 900;
+height: 50px;
+transition: 1s;
+}
+.column :nth-child(2):hover {
+letter-spacing: 1px;
+}
+.column :nth-child(3) {
+letter-spacing: 2px;
+} */ */

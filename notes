@@ -1,0 +1,40 @@
+/* 
+#header-container{
+    display: inline-table;
+    width: 100%;
+    text-align: center;    
+    padding-top: 0px;
+}
+
+#header-container div{
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    height: 80px;
+}
+
+#header-cell-lhs, #header-cell-rhs{
+    width: 37%;
+}
+
+#header-cell-middle{
+    width: 26%;
+}
+#header-cell-middle img{
+    width: 300px;
+    height: auto;
+}
+
+#title_img_lhs, #title_img_rhs{
+    width: 300px;
+    height: auto;
+}
+
+#title_img_lhs{
+    float: right;
+}
+
+#title_img_rhs{
+    float: left;
+} */
+
