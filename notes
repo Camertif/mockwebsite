@@ -1,40 +1,9 @@
-/* 
-#header-container{
-    display: inline-table;
-    width: 100%;
-    text-align: center;    
-    padding-top: 0px;
-}
+<button onclick="document.location.href=this.getAttribute('href');" href="/">Home</button>
+ <h1>About</h1>
+    <a href="../index.html">Home</a>
 
-#header-container div{
-    display: table-cell;
-    position: relative;
-    vertical-align: middle;
-    height: 80px;
-}
+    <div>
+        <img src="../assets/hiking_image.jpg" alt="hiking" width="300" />
+    </div>
 
-#header-cell-lhs, #header-cell-rhs{
-    width: 37%;
-}
-
-#header-cell-middle{
-    width: 26%;
-}
-#header-cell-middle img{
-    width: 300px;
-    height: auto;
-}
-
-#title_img_lhs, #title_img_rhs{
-    width: 300px;
-    height: auto;
-}
-
-#title_img_lhs{
-    float: right;
-}
-
-#title_img_rhs{
-    float: left;
-} */
-
+    width=device-width initial-scale=1

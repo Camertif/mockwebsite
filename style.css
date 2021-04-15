@@ -9,98 +9,173 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navigation-wrapper {
-   height: 230px;
    background-color:  #fffef8;
-   color: #4f605a;
-   border-bottom: 10px solid #4f605a;
+   color: #84735e;
+   border-bottom: 6px solid #4f605a;
    display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 60px 100px;  
-   box-shadow: inset 0px -26px 79px -8px #f3e3ce; 
+   justify-content:space-evenly;
+   align-items:center;
+   padding: 24px;  
+   box-shadow: inset 25px 5px -25px 5px #f3e3ce; 
 }
 
 .left-column {
     display: flex;
-    align-items: center;   
+    /* align-items:center;    */
+    text-align: left;
+    text-transform: capitalize;
+    padding: 1%;
+    /* background-position-x: LEFT; */
+    
+}
+
+.center {
+  display: block;
+  /* margin-left;
+  margin-right: 100px; */
+  width: 10%;
+
 }
 
 .header-styles {
-    font-family: 'GT-Eesti 2r',sans-serif;
+    font-family: 'Athens',sans-serif;
     /* font-family: 'acumin-pro-wide', sans-serif;
     font-family: 'acumin-pro-wide', sans-serif; */
-    font-size: 1em;   
+    font-size: 1em;
+    padding: 1%; 
 }
+
 
 .center-column {
-   display: grid;
-   grid-template-columns: 1fr;
-   grid-gap: 42px;
-   width: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+   
 }
+.grid {
+    /* float: left;
+        width: 50%;
+    float: right;
+        width: 50%; */
 
-.center-column .logo 
-    display: flex;
+    display: grid;
+    width: 3%;
+    grid-template-columns: 1px, 0fr;
+}
+   
+/* } */
+
+
+.center-column .logo {
+    display:flex;
     justify-content: center;  
     border-style: solid;
     border-color: #4f605a;
-    border-width: 0.25em;
+    border-width: 0.2em;
 }
 
 .logo img {
-    width: 210px;
-    height: 100%;   
+    align-items: center;
+    width: 250px;
+    /* height: 100%;    */
 }
 
 .link-wrapper {
     display: flex;
-    justify-content: space-between;
-    align-items: center;  
+    justify-content:center;
+    align-items: center;
+    position: center;  
+   
 }
 
 .nav-link {
-    width: 70px;
-    text-align: center;    
+    width: 100%;
+    /* text-align: center;  */
+    font-size: 1.5em;   
+    padding: 25px, 25PX;
+    position:center;
 }
 
 .nav-link a {
-    /* font-family: 'Ubuntu Condensed', sans-serif; */
+    font-family: 'Ubuntu Condensed', sans-serif;
     font-family: 'acumin-pro-wide', sans-serif;
-    color: #4f605a;
+    font-size: larger;
+    color: #84735e;
     text-decoration: none;
-    transition: 0.5s;
+    /* transition: 0.5s; */
 }
 
 .nav-link a:hover {
-    color: #bcca99;
-    letter-spacing: 2px;  
+    color:#bba885;
+    letter-spacing: .5em;  
 }
 
+/* .nav-link2 {
+    width: 100%;
+    /* text-align: center;  */
+    /* font-size: 1.5em;   
+    padding: 25px, 25PX;
+    position:center;
+}/ */
+/* .nav-link2 a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'acumin-pro-wide', sans-serif;
+    font-size: larger;
+    color: #84735e;
+    text-decoration: none;
+    transition: 0.5s;
+} */
+
+/* .sub-menu-1 {
+    display: none;
+} */
+
+/* .nav-link2 a:hover {
+    color:#bba885;
+    letter-spacing: .5em;  
+}
+
+.nav-link2 a:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px; */
+}
+
+/* .nav-link2 a:hover .sub-menu-1 {
+    display: block;
+    margin: 10px;
+} */
 .right-column {
     display: flex;
     align-items: center;  
+    text-align: right;
+    text-transform: capitalize;
+    padding: 1%;
+    /* background-position-y: right; */
 }
 
-.icon {
+/* .icon {
     font-size: 2em;
 }
 
 .icon-mr {
-    margin-right: 15px;
+    margin-right: 1px;
 }
 
 .icon-ml {
-    margin-left: 15px;  
-}
+    margin-left: 1px;  
+} */
 
 .homepage {
-   background-image: url(assets/LittleNookStudio_ElizabethReyes_109.png);
-   padding: 100px;
-   height: 700px;
+   background-image: url(assets/LittleNook.png);
+   padding: 30px;
+   height: 550px;
    background-attachment: fixed;
-   background-position: center;
+   background-position:center;
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: center;
 
 }
 
@@ -114,14 +189,14 @@ h1, h2, h3, h4, h5, h6 {
    border-radius: 2px;
 } */
 .mid-heading {
-   background-image: url(assets/logoshort.png);
-   padding: 100px;
-   height: 300px;
+   background-image: url(assets/Main\ Body\ Side\ Image.png);
+   padding: 30px 30px;
+   height: 500px;
    /* color: #fff; */
-   width: 20px;
+   width: 200px;
    border-radius: auto; 
-   background-attachment: fixed;
-   background-position: top;
+   background-attachment: flex;
+   background-position: center;
    background-repeat: no-repeat;
 
 }
@@ -135,53 +210,68 @@ h1, h2, h3, h4, h5, h6 {
 } */
 
 .features-section {
-   height: 400px;
-   background-color:   #4f605a;
-   border-top: 10px solid #fffef8;;
-   color: #fffef8;;
+   height: 500px;
+   background-color:   #bba885;
+   border-top: 5px solid #4f605a;
+   color: #fffef8;
    display: flex;
    justify-content: center;
    font-family: 'Ubuntu Condensed', sans-serif;
    /* font-family: 'acumin-pro-wide', sans-serif; */
    /* box-shadow: inset 0px -26px 79px -8px #a4735e; */
-   box-shadow: inset 0px -26px 79px -8px #f3e3ce;
+   box-shadow: inset 79px 26px 50px -26px #ebe5c2;
 }
-
-.columns-wrapper {
-    width: 1000px;
+.scroll-top-container{ 
+    opacity: 1;
+    background-color:   #bba885;
+    box-shadow: inset 79px -26px 50px -26px #ebe5c2;
+    /* right: flex; */
     display: flex;
-    justify-content: space-between;   
+    justify-content: left;
+   
+}
+.columns-wrapper {
+    /* width: 1000px; */
+    display: flex;
+    justify-content: space-between; 
+    border-style: solid;
+    border-color: #4f605a;
+    border-width: 0.2em;  
 }
 
 .column {
-    padding: 20px;
-    margin: 42px;
+    padding: 5px;
+    margin: 0px;
     text-align: center;
-    border-bottom: 5px solid transparent;
-    border-radius: 10px;
+    border-bottom: 1px solid transparent;
+    border-radius: 5px;
     transition: 1s;
 }
 
+
+            
 .column:hover {
     border-bottom-color: #fff;
-    border-bottom: 5px solid white;
+    border-bottom: 5px dashed #ebe5c2;
 }
 
 .column :nth-child(1) {
-    font-size: 3em; 
+    font-size: 1em; 
 }
 
 .column :nth-child(2) {
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 900;
     height: 50px;
     transition: 1s;  
 }
 
+
 .column :nth-child(2):hover {
-    letter-spacing: 2px;   
+    letter-spacing: 1.5px;   
 }
 
 .column :nth-child(3) {
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
 }
+
