@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .left-column {
     display: flex;
-    /* align-items:center;    */
+    align-items:center;   
     text-align: left;
     text-transform: capitalize;
     padding: 1%;
@@ -31,16 +31,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .center {
   display: block;
-  /* margin-left;
-  margin-right: 100px; */
   width: 10%;
 
 }
 
 .header-styles {
     font-family: 'Athens',sans-serif;
-    /* font-family: 'acumin-pro-wide', sans-serif;
-    font-family: 'acumin-pro-wide', sans-serif; */
     font-size: 1em;
     padding: 1%; 
 }
@@ -74,11 +70,12 @@ h1, h2, h3, h4, h5, h6 {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #f3e8d0;
     min-width: 260px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px #241d12;
     padding: 12px 16px;
     z-index: 1;
+    border-radius: 5px;
   }
   
   .dropdown:hover .dropdown-content {
@@ -110,10 +107,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-link {
     width: 100%;
-    /* text-align: center;  */
+    text-align: center; 
     font-size: 1.5em;   
     padding: 25px, 25PX;
-    position:center;
+    position: center;
 }
 
 .nav-link a {
@@ -127,45 +124,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-link a:hover {
     color:#bba885;
-    letter-spacing: .5em;  
+    letter-spacing: .2em;  
 }
 
-/* .nav-link2 {
-    width: 100%;
-    /* text-align: center;  */
-    /* font-size: 1.5em;   
-    padding: 25px, 25PX;
-    position:center;
-}/ */
-/* .nav-link2 a {
-    font-family: 'Ubuntu Condensed', sans-serif;
-    font-family: 'acumin-pro-wide', sans-serif;
-    font-size: larger;
-    color: #84735e;
-    text-decoration: none;
-    transition: 0.5s;
-} */
 
-/* .sub-menu-1 {
-    display: none;
-} */
-
-/* .nav-link2 a:hover {
-    color:#bba885;
-    letter-spacing: .5em;  
-}
-
-.nav-link2 a:hover .sub-menu-1 {
-    display: block;
-    position: absolute;
-    margin-top: 15px;
-    margin-left: -15px; */
-/* } */
-
-/* .nav-link2 a:hover .sub-menu-1 {
-    display: block;
-    margin: 10px;
-} */
 .right-column {
     display: flex;
     align-items: center;  
@@ -174,18 +136,6 @@ h1, h2, h3, h4, h5, h6 {
     padding: 1%;
     /* background-position-y: right; */
 }
-
-/* .icon {
-    font-size: 2em;
-}
-
-.icon-mr {
-    margin-right: 1px;
-}
-
-.icon-ml {
-    margin-left: 1px;  
-} */
 
 .homepage {
    background-image: url(assets/LittleNook.png);
