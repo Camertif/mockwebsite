@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-link a {
-    /* font-family: 'Ubuntu Condensed', sans-serif; */
+    font-family: 'Ubuntu Condensed', sans-serif;
     font-family: 'acumin-pro-wide', sans-serif;
     font-size: larger;
     color: #84735e;
