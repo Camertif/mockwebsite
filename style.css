@@ -18,7 +18,10 @@ h1, h2, h3, h4, h5, h6 {
    padding: 20px;  
    box-shadow: inset 25px 5px -25px 5px #f3e3ce; 
 }
-
+.social-wrapper {
+    box-sizing: inherit;
+    background-color:#4f605a;
+}
 .left-column {
     display: flex;
     align-items:center;   
