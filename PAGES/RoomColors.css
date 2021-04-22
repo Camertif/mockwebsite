@@ -15,9 +15,46 @@ h1, h2, h3, h4, h5, h6 {
    display: flex;
    justify-content:space-evenly;
    align-items:center;
-   padding: 20px;  
+   padding: 15px;  
    box-shadow: inset 25px 5px -25px 5px #f3e3ce; 
 }
+
+.social-wrapper{
+    position: center;
+}
+
+.fa {  
+    /* background-color:#4f605a; */
+    justify-content: space-evenly;
+    display: flex;
+    box-sizing: inherit;
+    padding: 10px;  
+    text-align: center;  
+    margin: 2px 2px;  
+    font-size: 30px;  
+    border-radius: 50%;
+        /* width: 50px;   */
+      }  
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #f3e8d0;
+    color: white;
+  }
+  
+.fa-twitter {
+    background: #f3e8d0;
+    color: white;
+  }
+  .fa-pinterest {
+    background: #f3e8d0;
+    color: white;
+  }
+  .fa-instagram {  
+    background: #f3e8d0;  
+    color: white;  
+  }  
 
 .left-column {
     display: flex;
@@ -138,13 +175,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .homepage {
-   background-image: url(assets/LittleNook.png);
-   padding: 30px;
+   background-image: url(../assets/leaves.jpeg);
+   padding: 35px;
    height: 550px;
+   /* width: 100%; */
+   background-blend-mode: 0.5, 1;
    background-attachment: fixed;
-   background-position:center;
+   background-position: center;
    background-repeat: no-repeat;
-   background-size: center;
+   background-size: 100%;
 
 }
 
@@ -158,15 +197,26 @@ h1, h2, h3, h4, h5, h6 {
    border-radius: 2px;
 } */
 .mid-heading {
-   background-image: url(assets/Main\ Body\ Side\ Image.png);
-   padding: 30px 30px;
+   /* background-image: url(assets/Main\ Body\ Side\ Image.png); */
+   padding: 20px 15px;
    height: 500px;
    /* color: #fff; */
-   width: 200px;
-   border-radius: auto; 
+   width: 100px;
+   border-radius: 2px; 
    background-attachment: flex;
    background-position: center;
    background-repeat: no-repeat;
+
+}
+/* I NEED TO FIGURE THIS OUT!!! */
+.right-heading {
+    background-image: url(../assets/greenpalette.png);
+    /* display: flex; */
+    align-items: right;  
+    text-align: right;
+    text-transform: capitalize;
+    padding: 1%;
+    /* background-position-y: right; */
 
 }
 /* .bottom-heading {
@@ -180,7 +230,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .features-section {
    height: 200px;
-   background-color:   #bba885;
+   background-color: #afa080;
    border-top: 5px solid #4f605a;
    color: #fffef8;
    display: flex;
@@ -192,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .scroll-top-container{ 
     opacity: 1;
-    background-color:   #bba885;
+    background-color:   #afa080;
     box-shadow: inset 79px -26px 50px -26px #ebe5c2;
     /* right: flex; */
     display: flex;
