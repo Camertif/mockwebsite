@@ -15,8 +15,8 @@ h1, h2, h3, h4, h5, h6 {
    display: flex;
    justify-content:space-evenly;
    align-items:center;
-   padding: 20px;  
-   box-shadow: inset 25px 5px -25px 5px #f3e3ce; 
+   padding: 2px, 2px;  
+   box-shadow: inset 15px 5px -15px 5px #f3e3ce; 
 }
 .social-wrapper{
     position: center;
@@ -29,8 +29,8 @@ h1, h2, h3, h4, h5, h6 {
     box-sizing: inherit;
     padding: 10px;  
     text-align: center;  
-    margin: 2px 2px;  
-    font-size: 30px;  
+    margin: 5px 6px;  
+    font-size: 60px;  
     border-radius: 50%;
         /* width: 50px;   */
       }  
@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     text-align: center; 
     font-size: 1.5em;   
-    padding: 25px, 25PX;
+    padding: 5px, 5PX;
     position: center;
 }
 
@@ -173,13 +173,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .homepage {
-   background-image: url(assets/LittleNook.png);
-   padding: 30px;
-   height: 550px;
+   background-image: url(assets/mainpagecenterimage.png);
+   /* opacity: .8; */
+   padding: 50px;
+   height: 600px;
+   /* width: 100%; */
    background-attachment: fixed;
    background-position:center;
    background-repeat: no-repeat;
-   background-size: center;
+   background-size: 100%;
 
 }
 
@@ -194,11 +196,12 @@ h1, h2, h3, h4, h5, h6 {
 } */
 .mid-heading {
    background-image: url(assets/Main\ Body\ Side\ Image.png);
+   /* opacity: 1; */
    padding: 30px 30px;
    height: 500px;
    /* color: #fff; */
    width: 200px;
-   border-radius: auto; 
+   border-radius: 5px; 
    background-attachment: flex;
    background-position: center;
    background-repeat: no-repeat;
@@ -215,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .features-section {
    height: 500px;
-   background-color:   #bba885;
+   background-color:   #fffef8;
    border-top: 5px solid #4f605a;
    color: #fffef8;
    display: flex;
@@ -223,15 +226,15 @@ h1, h2, h3, h4, h5, h6 {
    font-family: 'Ubuntu Condensed', sans-serif;
    /* font-family: 'acumin-pro-wide', sans-serif; */
    /* box-shadow: inset 0px -26px 79px -8px #a4735e; */
-   box-shadow: inset 79px 26px 50px -26px #ebe5c2;
+   box-shadow: inset 50px -26px 50px 26px #bba885;
 }
 .scroll-top-container{ 
     opacity: 1;
-    background-color:   #bba885;
-    box-shadow: inset 79px -26px 50px -26px #ebe5c2;
+    background-color:   #fffef8;
+    box-shadow: inset 50px 26px 50px 26px #bba885;
     /* right: flex; */
     display: flex;
-    justify-content: left;
+    justify-content: right;
    
 }
 .columns-wrapper {
