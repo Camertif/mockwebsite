@@ -1,5 +1,5 @@
 body {
-     margin: 15;
+     margin: 5;
      font-family: 'GT-Eesti 2r',sans-serif;
 }
 
@@ -23,15 +23,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fa {  
-    /* background-color:#4f605a; */
      justify-content: space-evenly;
      display: flex;
      box-sizing: inherit;
-     padding: 10px;  
+     padding: 20px;  
      text-align: center;  
      margin: 5px 6px;  
      font-size: 60px;  
-     border-radius: 50%;
+     border-radius: 10%;
 }  
 
 .fa:hover {
@@ -62,8 +61,8 @@ h1, h2, h3, h4, h5, h6 {
      display: flex;
      align-items:center;   
      text-align: left;
-     text-transform: capitalize;
-     padding: 1%;
+     /* text-transform: capitalize; */
+     padding: .5%;
      /* background-position-x: LEFT; */
 }
 
@@ -156,8 +155,8 @@ h1, h2, h3, h4, h5, h6 {
      display: flex;
      align-items: center;  
      text-align: right;
-     text-transform: capitalize;
-     padding: 1%;
+     /* text-transform: capitalize; */
+     padding: .5%;
 }
 
 .homepage {
@@ -172,14 +171,6 @@ h1, h2, h3, h4, h5, h6 {
      background-size: 100%;
 }
 
-/* .top-heading {
-     background-color: #9b651e;
-     color: #fff;
-     width: 200px;
-     margin-top: 15px;
-     padding: 1px 20px;
-     border-radius: 2px;
-} */
 .mid-heading {
      background-image: url(assets/Main\ Body\ Side\ Image.png);
      /* opacity: 1; */
@@ -193,15 +184,6 @@ h1, h2, h3, h4, h5, h6 {
      background-repeat: no-repeat;
 
 }
-
-/* .bottom-heading {
-     background-color: #b89893;
-     color: #fff; 
-     width: 200px;
-     margin-top: 15px;
-     padding: 1px 20px;
-     border-radius: 2px;  
-} */
 
 .features-section {
      height: 500px;
