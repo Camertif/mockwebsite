@@ -4,10 +4,41 @@ body {
 }
 
 h1 {
-     font-family: 'averia-light', sans-serif;
-     float: left;
+    font-family: 'Zilla Slab Highlight', cursive;
+     /* 'averia-light', sans-serif; */
+     float:center;
+     margin-inline-start: 35px;
+     margin-inline-end: 10px;
+     font-size: 50px;
+     text-align: center;
+     color:#fffef8;
+     font-weight: bolder;
 }
-h2, h3, h4, h5, h6 {
+
+h2 {
+     font-family: 'Lexend Peta', sans-serif;
+     /* 'averia-light', sans-serif; */
+     float:center;
+     margin-inline-start: 35px;
+     margin-inline-end: 10px;
+     text-align: center;
+     font-size: 30px;
+     color:#fffef8;
+}
+ 
+h3 {
+     font-family: 'Montserrat', sans-serif;
+     /* 'averia-light', sans-serif; */
+     float:center;
+     margin-inline-start: 35px;
+     margin-inline-end: 10px;
+     text-align: center;
+     font-size: 20px;
+     color:#fffef8;
+     font-style: italic;
+}
+
+h4, h5, h6 {
     /* font-family: 'Roboto Slab', serif; */
      font-family: 'averia-light', sans-serif;
 }
@@ -175,9 +206,10 @@ h2, h3, h4, h5, h6 {
      background-position:center;
      background-repeat: no-repeat;
      background-size: 100%;
+     display: flex;
 }
 
-.mid-heading {
+.colA {
      /* background-image: url(../assets/COLORS.png); */
      padding: 30px 30px;
      height: 500px;
@@ -190,7 +222,17 @@ h2, h3, h4, h5, h6 {
      background-repeat: no-repeat;
 }
 /* I NEED TO FIGURE THIS OUT!!! */
-
+.colB {
+    padding: 30px 30px;
+    height: 500px;
+    background-color: #84735e;
+    background-blend-mode: lighten;
+    width: 100%;
+    background-attachment: flex;
+    background-position: left;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
 
 .features-section {
      height: 50px;
