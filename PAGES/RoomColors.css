@@ -174,15 +174,14 @@ h1, h2, h3, h4, h5, h6 {
  
 .homepage {
    background-image: url(../assets/green.jpg);
-   padding: inherit;
-   height: inherit;
-   width: 100%;
-   opacity: .7;
-   /* background-blend-mode: 0.5, 1; */
-   background-attachment: fixed;
-   background-position: bottom;
-   background-repeat: no-repeat;
-   /* background-size: 20%; */
+  /* opacity: .8; */
+  padding: 50px;
+  height: 600px;
+  /* width: 100%; */
+  background-attachment: fixed;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: 100%;
 
 }
 
@@ -201,15 +200,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* I NEED TO FIGURE THIS OUT!!! */
 .right-heading {
-    background-image: url(../assets/greenpagebackground.jpg);
-    /* display: flex; */
+    /* background-image: url(../assets/greenpagebackground.jpg); */
+    /* display: flex;
     align-items: right;  
     text-align: right;
     text-transform: capitalize;
     padding: 1%;
-    /* background-position-y: right; */
-
+    background-position-x: right; */
+    /* padding: 20px 15px;
+    height: 200px;
+    opacity: 1;
+    color: #fff;
+    width: 100px;
+    border-radius: 2px; 
+    background-attachment: flex;
+    background-position: right;
+    background-repeat: no-repeat; */
 }
+
 /* .bottom-heading {
     background-color: #b89893;
     color: #fff; 
@@ -237,7 +245,7 @@ h1, h2, h3, h4, h5, h6 {
      box-shadow: inset 50px 26px 50px 26px #bba885;
      /* right: flex; */
      display: flex;
-     justify-content: right;
+     justify-content: flex-end;
     
  }
  .columns-wrapper {
