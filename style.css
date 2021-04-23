@@ -234,7 +234,7 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: inset 50px 26px 50px 26px #bba885;
     /* right: flex; */
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
    
 }
 .columns-wrapper {
