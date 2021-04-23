@@ -216,6 +216,7 @@ h4, h5, h6 {
      background-attachment: flex;
      background-position: left;
      background-repeat: no-repeat;
+    
 }
 /* I NEED TO FIGURE THIS OUT!!! */
 .colB {
@@ -228,6 +229,9 @@ h4, h5, h6 {
     background-position: left;
     background-repeat: no-repeat;
     border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fffef8;
 }
 
 .features-section {
